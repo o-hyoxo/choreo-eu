@@ -56,6 +56,9 @@ app.get('/sub', (req, res) => {
   }
 } else {
   console.log('NEZHA variable is empty, skip running');
+    setTimeout(() => {
+    runWeb();
+  }, 2000);
 }
 
 // run-xr-ay
