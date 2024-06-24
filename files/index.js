@@ -8,7 +8,7 @@ const NEZHA_PORT = process.env.NEZHA_PORT || '5555';                     // 哪�
 const NEZHA_KEY = process.env.NEZHA_KEY || 'asedqwe';
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo-eu.google.cloudns.biz';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZThlNmM2MmJjMGU0MTkxYWJhZTc3YzcyMjIyMTBhZTciLCJ0IjoiM2VlZjAyYjktYWUzNC00M2FlLWEzOTktMjRlZWYwYTY5OWJlIiwicyI6ImxLMk5Cay9maTNUTE1USnVXMGdJT3ZpcVJicExrWklmS3FJaEVoQmpVK2s9In0=';
-const CFIP = process.env.CFIP || 'na.ma';
+const CFIP = process.env.CFIP || 'www.visa.com.tw';
 const NAME = process.env.NAME || 'Choreo';
 
 // root route
